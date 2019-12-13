@@ -2,25 +2,31 @@ html {
     font-size: 20px; /*setting the default rem value*/
     font-family: Arial, Helvetica, sans-serif;
 }
-/*make the rem value smaller for smaller device view ports*/
-@media (max-width: 768px) { /*targets tablets in landscape mode and up*/
-    html {
-        font-size: 15px
-    }
+/*default rem values before media checks for different text elements*/
+h1.headName{
+    font-size: 3rem;
 }
-@media (max-width: 480px) { /*targets mobiles in landscape mode and up*/
-    html {
-        font-size: 10px /*makes our rems smaller (14px) for small media view port*/
-    }
-}
-/*rem value for different text elements*/
-h1{
-    font-size: 2.4rem;
-}
-nav {
+div.links{ /*sets the size for the html links inside this div to be bigger than default*/
     font-size: 1.5rem;
 }
-
+/*-------make the rem values smaller for smaller device view ports---------*/
+@media (max-width: 768px) { /*targets tablets in landscape mode and down*/
+    html {
+        font-size: 15px; /*makes our rems smaller (15px down from 20px) for smaller media view ports*/
+    }
+    h1.headName {
+        font-size: 2.7rem; /*smaller header name for the smaller view ports*/
+    }
+}
+@media (max-width: 480px) { /*targets mobiles in landscape mode and down*/
+    html {
+        font-size: 10px;
+    }
+    h1.headName {
+        font-size: 2.5rem;
+    }
+}
+/*------------CONTENT-------------*/
 body {
     margin: 0%;
     background-color: rgba(26, 14, 1, 0.7);
@@ -39,16 +45,33 @@ body {
 h1.headName {
     margin: auto;
     color: rgb(255, 255, 255);
-    text-shadow: 4px 4px rgba(0, 0, 0, 0.7);
+    text-shadow: 0.25rem 0.25rem rgba(0, 0, 0, 0.7); /*rem shadow values to scale with view port*/
 }
 
-nav.links { /*for navigation html links to other pages*/
+/*box for the navigation html links to other pages*/
+div.links {
     display: flex;
     justify-content: space-around;
-    padding-top: 1.5%;
-    padding-bottom: 1.5%;
-    background-color: rgba(163, 96, 24, 0.7);
+    height:2.5rem;
+    background-color: rgb(94, 56, 6);
 }
-/* junk code
-align-items: center;
-*/
+/*html link settings*/
+a.fill-1{
+    line-height:2.5rem; /*line height the same as div.links to make buttons taller and centered to be accessible*/
+    padding-left: 2.5%; /*padding used to make buttons wider to be more accessible*/
+    padding-right: 2.5%;
+    background-color: rgba(168, 100, 28, 0.7);
+}
+/*happens after the a.fill-1 to change them*/
+@media (max-width: 768px) { /*reduces padding as the screen gets smaller*/
+    a.fill-1{
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+}
+@media (max-width: 480px) {
+    a.fill-1{
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+}
