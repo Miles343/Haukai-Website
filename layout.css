@@ -1,19 +1,54 @@
+html {
+    font-size: 20px; /*setting the default rem value*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*make the rem value smaller for smaller device view ports*/
+@media (max-width: 768px) { /*targets tablets in landscape mode and up*/
+    html {
+        font-size: 15px
+    }
+}
+@media (max-width: 480px) { /*targets mobiles in landscape mode and up*/
+    html {
+        font-size: 10px /*makes our rems smaller (14px) for small media view port*/
+    }
+}
+/*rem value for different text elements*/
+h1{
+    font-size: 2.4rem;
+}
+nav {
+    font-size: 1.5rem;
+}
+
 body {
     margin: 0%;
     background-color: rgba(26, 14, 1, 0.7);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
 }
 
 /* restaurant logo top left*/
 .logo {
     display: flex;
-    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(131, 4, 4, 0.7);
 }
 
 /* restaurant name */
-.headName {
+h1.headName {
     margin: auto;
-    font-family: Arial, Helvetica, sans-serif; /* backup fonts if first doesn't load */
-    font-weight: lighter;
     color: rgb(255, 255, 255);
-    font-size: 300%;
+    text-shadow: 4px 4px rgba(0, 0, 0, 0.7);
 }
+
+nav.links { /*for navigation html links to other pages*/
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    background-color: rgba(163, 96, 24, 0.7);
+}
+/* junk code
+align-items: center;
+*/
