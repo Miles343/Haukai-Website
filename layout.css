@@ -39,7 +39,7 @@ body {
     display: flex;
     justify-content: space-around;
 }
-/*header colours to make each page visibly different*/
+/*header colours so users can quickly tell they are on a different page*/
 .colorHome{
     background-color: rgba(131, 4, 4, 0.7);
 }
