@@ -38,9 +38,24 @@ body {
 .logo {
     display: flex;
     justify-content: space-around;
+}
+/*header colours to make each page visibly different*/
+.colorHome{
     background-color: rgba(131, 4, 4, 0.7);
 }
-
+.colorMenu{
+    background-color: rgb(128, 112, 41);
+    /*background-color: rgb(148, 113, 0);*/
+}
+.colorHour{
+    background-color: rgb(50, 119, 41);
+}
+.colorReserve{
+    background-color: rgb(41, 103, 119);
+}
+.colorContact{
+    background-color: rgb(62, 41, 119);
+}
 /* restaurant name */
 h1.headName {
     margin: auto;
