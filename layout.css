@@ -41,10 +41,10 @@ body {
 }
 /*header colours so users can quickly tell they are on a different page*/
 .colorHome{
-    background-color: rgb(121, 4, 4);
+    background-color: rgb(105, 4, 4);
 }
 .colorMenu{
-    background-color: rgb(128, 112, 41);
+    background-color: rgb(107, 94, 34);
 }
 .colorHour{
     background-color: rgb(50, 119, 41);
@@ -55,10 +55,14 @@ body {
 .colorContact{
     background-color: rgb(62, 41, 119);
 }
+.textWhite{
+    color: rgb(255, 255, 255);
+    padding-left: 10%;
+    padding-right: 10%;
+}
 /* restaurant name */
 h1.headName {
     margin: auto;
-    color: rgb(255, 255, 255);
     text-shadow: 0.25rem 0.25rem rgb(0, 0, 0); /*rem shadow values to scale with view port*/
 }
 
@@ -69,7 +73,6 @@ div.links {
     grid-gap: 0.6rem;
     background-color: rgb(94, 56, 6);
 }
-
 /*html link settings*/
 a.fill-1{
     line-height:2.5rem; /*line height the same as div.links to make buttons taller and centered to be accessible*/
