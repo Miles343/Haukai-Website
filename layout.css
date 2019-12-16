@@ -57,8 +57,6 @@ body {
 }
 .textWhite{
     color: rgb(255, 255, 255);
-    padding-left: 10%;
-    padding-right: 10%;
 }
 /* restaurant name */
 h1.headName {
@@ -79,10 +77,18 @@ a.fill-1{
     background-color: rgb(168, 100, 28);
     text-align: center;
 }
+div.padText{
+    padding-left: 15%;
+    padding-right: 15%;
+}
 /*happens after the a.fill-1 to change them*/
 @media (max-width: 768px) {
     a.fill-1{
         font-size: 1.3rem;
+    }
+    div.padText{
+        padding-left: 10%;
+        padding-right: 10%;
     }
 }
 @media (max-width: 480px) {
@@ -93,5 +99,9 @@ a.fill-1{
     div.links{ /*new grid layout for smallest media view*/
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
+    }
+    div.padText{
+        padding-left: 5%;
+        padding-right: 5%;
     }
 }
