@@ -41,7 +41,7 @@ body {
 }
 /*header colours so users can quickly tell they are on a different page*/
 .colorHome{
-    background-color: rgb(105, 4, 4);
+    background-color: rgb(94, 4, 4);
 }
 .colorMenu{
     background-color: rgb(107, 94, 34);
@@ -77,9 +77,13 @@ a.fill-1{
     background-color: rgb(168, 100, 28);
     text-align: center;
 }
+div.textBack{
+    margin: auto;
+    width: 80%;
+}
 div.padText{
-    padding-left: 15%;
-    padding-right: 15%;
+    margin: auto;
+    width: 80%;
 }
 /*happens after the a.fill-1 to change them*/
 @media (max-width: 768px) {
@@ -87,8 +91,7 @@ div.padText{
         font-size: 1.3rem;
     }
     div.padText{ /*adjust padding as the media view gets smaller*/
-        padding-left: 10%;
-        padding-right: 10%;
+        width: 85%;
     }
 }
 @media (max-width: 480px) {
@@ -100,8 +103,10 @@ div.padText{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
     }
+    div.textBack{
+        width: 100%;
+    }
     div.padText{
-        padding-left: 5%;
-        padding-right: 5%;
+        width: 90%;
     }
 }
