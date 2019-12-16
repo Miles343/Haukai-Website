@@ -29,7 +29,7 @@ div.links{ /*sets the size for the html links inside this div to be bigger than 
 /*------------CONTENT-------------*/
 body {
     margin: 0%;
-    background-color: rgba(26, 14, 1, 0.7);
+    background-color: rgb(116, 39, 39);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
 }
@@ -41,7 +41,7 @@ body {
 }
 /*header colours so users can quickly tell they are on a different page*/
 .colorHome{
-    background-color: rgba(131, 4, 4, 0.7);
+    background-color: rgb(121, 4, 4);
 }
 .colorMenu{
     background-color: rgb(128, 112, 41);
@@ -59,7 +59,7 @@ body {
 h1.headName {
     margin: auto;
     color: rgb(255, 255, 255);
-    text-shadow: 0.25rem 0.25rem rgba(0, 0, 0, 0.7); /*rem shadow values to scale with view port*/
+    text-shadow: 0.25rem 0.25rem rgb(0, 0, 0); /*rem shadow values to scale with view port*/
 }
 
 /*grid for the navigation html links to other pages*/
@@ -73,7 +73,7 @@ div.links {
 /*html link settings*/
 a.fill-1{
     line-height:2.5rem; /*line height the same as div.links to make buttons taller and centered to be accessible*/
-    background-color: rgba(168, 100, 28, 0.7);
+    background-color: rgb(168, 100, 28);
     text-align: center;
 }
 /*happens after the a.fill-1 to change them*/
