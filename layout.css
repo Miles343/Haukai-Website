@@ -86,7 +86,7 @@ div.padText{
     a.fill-1{
         font-size: 1.3rem;
     }
-    div.padText{
+    div.padText{ /*adjust padding as the media view gets smaller*/
         padding-left: 10%;
         padding-right: 10%;
     }
