@@ -73,15 +73,15 @@ div.links {
 }
 /*html link settings*/
 a.fill-1{
-    line-height:2.5rem; /*line height the same as div.links to make buttons taller and centered to be accessible*/
+    line-height:2.5rem;
     background-color: rgb(168, 100, 28);
     text-align: center;
 }
-div.textBack{
+.mediaBack{ /*to also be used for restaurant photo and possibly others*/
     margin: auto;
     width: 80%;
 }
-div.padText{
+div.widthText{
     margin: auto;
     width: 80%;
 }
@@ -90,7 +90,7 @@ div.padText{
     a.fill-1{
         font-size: 1.3rem;
     }
-    div.padText{ /*adjust padding as the media view gets smaller*/
+    div.widthText{ /*adjust padding as the media view gets smaller*/
         width: 85%;
     }
 }
@@ -103,10 +103,10 @@ div.padText{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
     }
-    div.textBack{
+    .mediaBack{
         width: 100%;
     }
-    div.padText{
+    div.widthText{
         width: 90%;
     }
 }
