@@ -9,6 +9,10 @@ h1.headName{
 div.links{ /*sets the size for the html links inside this div to be bigger than default*/
     font-size: 1.5rem;
 }
+/*---Setting text colours*/
+h1, h2, h3{
+    color: rgb(255, 255, 255);
+}
 /*-------make the rem values smaller for smaller device view ports---------*/
 @media (max-width: 768px) { /*targets tablets in landscape mode and down*/
     html {
@@ -53,9 +57,6 @@ body {
 }
 .colorContact{
     background-color: rgb(62, 41, 119);
-}
-.textWhite{
-    color: rgb(255, 255, 255);
 }
 /* restaurant name */
 h1.headName {
