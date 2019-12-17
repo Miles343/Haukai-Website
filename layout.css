@@ -73,8 +73,13 @@ div.links {
 /*html link settings*/
 a.fill-1{
     line-height:2.5rem;
-    background-color: rgb(168, 100, 28);
+    background-color: rgb(190, 113, 30);
     text-align: center;
+    text-decoration: none;
+    cursor: pointer; /*does this by default but it might not on all browsers so worth keeping*/
+}
+a.fill-1:hover { /*makes the clickable area darker on mouse hover*/
+    background-color: rgb(117, 70, 19);;
 }
 
 /*-----------AFTER HTML LINKS---------------*/
