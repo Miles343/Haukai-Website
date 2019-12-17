@@ -78,14 +78,12 @@ a.fill-1{
 
 /*-----------AFTER HTML LINKS---------------*/
 div.area-1{ /*used for text area*/
-    margin: auto;
     width: 80%;
 }
 .widthText{ /*restricts text width to 80% of the area's 80% so it does affect the text even though it's the same value 80%*/
     width: 80%;
 }
 .mediaWidth-1{ /*used for restaurant photo and possibly others, starts smallest width gets bigger as media view gets smaller*/
-    margin: auto;
     width: 70%;
 }
 
