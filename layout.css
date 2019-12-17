@@ -9,8 +9,8 @@ h1.headName{
 div.links{ /*sets the size for the html links inside this div to be bigger than default*/
     font-size: 1.5rem;
 }
-/*---Setting text colours*/
-h1, h2, h3{
+/*---Setting html link and text colours*/
+a, h1, h2, h3{
     color: rgb(255, 255, 255);
 }
 /*-------make the rem values smaller for smaller device view ports---------*/
@@ -27,7 +27,7 @@ h1, h2, h3{
         font-size: 10px;
     }
     h1.headName {
-        font-size: 2.65rem;
+        font-size: 2.6rem;
     }
 }
 /*------------CONTENT-------------*/
@@ -79,7 +79,7 @@ a.fill-1{
     cursor: pointer; /*does this by default but it might not on all browsers so worth keeping*/
 }
 a.fill-1:hover { /*makes the clickable area darker on mouse hover*/
-    background-color: rgb(117, 70, 19);;
+    background-color: rgb(117, 70, 19);
 }
 
 /*-----------AFTER HTML LINKS---------------*/
