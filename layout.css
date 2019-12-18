@@ -130,6 +130,6 @@ div.area-1{ /*used for text area*/
 footer{
     height: 4rem;
     background-color: rgb(190, 113, 30);
-    line-height:2.2rem;
+    line-height:4rem;/*to center the text vertically*/
     text-align: center;
 }
