@@ -95,7 +95,13 @@ div.area-1{ /*used for text area*/
 .mediaWidth-1{ /*used for restaurant photo and possibly others, starts smallest width gets bigger as media view gets smaller*/
     width: 70%;
 }
-
+footer{
+    background-color: rgb(190, 113, 30);
+    line-height:2rem;/*to adjust the text vertically*/
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
 /*happens after the above CSS to be able to change them*/
 @media (max-width: 768px) {
     a.fill-1{
@@ -106,6 +112,10 @@ div.area-1{ /*used for text area*/
     }
     .mediaWidth-1{
         width: 85%;
+    }
+    footer{ /*smaller padding for footer as the media view gets smaller*/
+        padding-left: 3%;
+        padding-right: 3%;
     }
 }
 @media (max-width: 480px) {
@@ -126,10 +136,8 @@ div.area-1{ /*used for text area*/
     .mediaWidth-1{ /*make image the full width in smallest media view*/
         width: 100%;
     }
-}
-footer{
-    height: 4rem;
-    background-color: rgb(190, 113, 30);
-    line-height:4rem;/*to center the text vertically*/
-    text-align: center;
+    footer{
+        padding-left: 1.5%;
+        padding-right: 1.5%;
+    }
 }
