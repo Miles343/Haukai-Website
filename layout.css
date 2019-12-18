@@ -62,6 +62,9 @@ body {
     background-color: rgb(62, 41, 119);
 }
 /* restaurant name */
+header{ /*auto margin for header so that it's default formatting doesn't interfere and allows screen readers to know the header*/
+    margin: auto;
+}
 h1.headName {
     margin: auto;
     text-shadow: 0.25rem 0.25rem rgb(0, 0, 0); /*rem shadow values to scale with view port*/
