@@ -29,6 +29,9 @@ a, h1, h2, h3{
     h1.headName {
         font-size: 2.6rem;
     }
+    footer{
+        font-size: 1.3rem;
+    }
 }
 /*------------CONTENT-------------*/
 body {
@@ -123,4 +126,10 @@ div.area-1{ /*used for text area*/
     .mediaWidth-1{ /*make image the full width in smallest media view*/
         width: 100%;
     }
+}
+footer{
+    height: 4rem;
+    background-color: rgb(190, 113, 30);
+    line-height:2.2rem;
+    text-align: center;
 }
