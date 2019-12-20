@@ -10,7 +10,7 @@ div.links{ /*sets the size for the html links inside this div to be bigger than 
     font-size: 1.5rem;
 }
 /*---Setting html link and text colours*/
-a, h1, h2, h3, h4{
+a, h1, h2, h3, h4, h5{
     color: rgb(255, 255, 255);
 }
 /*-------make the rem values smaller for smaller device view ports---------*/
@@ -147,9 +147,13 @@ footer{
         font-size: 1.7rem;
         line-height:3.2rem;
     }
-    div.links{ /*new grid layout for smallest media view*/
+    div.links{ /*new grid layout for smallest media view html links*/
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
+    }
+    div.beverage{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
     }
     div.area-1{ /*makes the div coloured area the full page width*/
         width: 100%;
