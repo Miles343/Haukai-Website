@@ -10,7 +10,7 @@ div.links{ /*sets the size for the html links inside this div to be bigger than 
     font-size: 1.5rem;
 }
 /*---Setting html link and text colours*/
-a, h1, h2, h3{
+a, h1, h2, h3, h4{
     color: rgb(255, 255, 255);
 }
 /*-------make the rem values smaller for smaller device view ports---------*/
@@ -90,10 +90,20 @@ a.fill-1:hover { /*makes the clickable area darker on mouse hover*/
 
 /*-----------AFTER HTML LINKS---------------*/
 div.area-1{ /*used for text area*/
-    width: 80%;
+    width: 85%;
 }
-.widthText{ /*restricts text width to 80% of the area's 80% so it does affect the text even though it's the same value 80%*/
-    width: 80%;
+.widthText{ /*home, restricts text width to 85% of the area's 85%*/
+    width: 85%;
+}
+.widthText-2{ /*menus*/
+    width: 90%;
+}
+div.menuArea{ /*area for the different menus and giving it a colour*/
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: rgb(75, 65, 23);
 }
 .mediaWidth-1{ /*used for restaurant photo and possibly others, starts smallest width gets bigger as media view gets smaller*/
     width: 70%;
@@ -116,6 +126,9 @@ footer{
     .mediaWidth-1{
         width: 85%;
     }
+    .widthText{
+        width: 94%;
+    }
     footer{ /*smaller padding for footer as the media view gets smaller*/
         padding-left: 3%;
         padding-right: 3%;
@@ -133,10 +146,10 @@ footer{
     div.area-1{ /*makes the div coloured area the full page width*/
         width: 100%;
     }
-    .widthText{
-        width: 90%;
-    }
     .mediaWidth-1{ /*make image the full width in smallest media view*/
+        width: 100%;
+    }
+    .widthText-2{ /*menus*/
         width: 100%;
     }
     footer{
