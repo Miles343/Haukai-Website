@@ -87,15 +87,17 @@ a.fill-1{
 a.fill-1:hover { /*makes the clickable area darker on mouse hover*/
     background-color: rgb(117, 70, 19);
 }
-
 /*-----------AFTER HTML LINKS---------------*/
 div.area-1{ /*used for text area*/
     width: 85%;
 }
+div.area-2{ /*beverage area*/
+    width: 100%;
+}
 .widthText{ /*home, restricts text width to 85% of the area's 85%*/
     width: 85%;
 }
-.widthText-2{ /*menus*/
+.widthText-2{ /*menus and beverages*/
     width: 90%;
 }
 div.menuArea{ /*area for the different menus and giving it a colour*/
@@ -104,6 +106,12 @@ div.menuArea{ /*area for the different menus and giving it a colour*/
     padding-left: 5%;
     padding-right: 5%;
     background-color: rgb(75, 65, 23);
+}
+div.beverage{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 0.6rem;
 }
 .mediaWidth-1{ /*used for restaurant photo and possibly others, starts smallest width gets bigger as media view gets smaller*/
     width: 70%;
