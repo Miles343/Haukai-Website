@@ -107,12 +107,19 @@ div.menuArea{ /*area for the different menus and giving it a colour*/
     padding-right: 5%;
     background-color: rgb(75, 65, 23);
 }
+/*-----menu page grid settings-----*/
 div.beverage{
     display:grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-gap: 0.6rem;
 }
+div.menuAreaDrink{ /*area for the drinks, dark blue to indicate drinks and not food*/
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: rgb(23, 26, 75);
+}
+/*-----------------------------------*/
 .mediaWidth-1{ /*used for restaurant photo and possibly others, starts smallest width gets bigger as media view gets smaller*/
     width: 70%;
 }
