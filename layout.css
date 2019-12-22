@@ -107,7 +107,7 @@ div.menuArea{ /*area for the different menus and giving it a colour*/
 .widthText-2{ /*menus and beverages*/
     width: 90%;
 }
-.menuPics{
+div.menuPics{ /*grid for menu*/
     
 }
 div.area-2{ /*beverage area*/
