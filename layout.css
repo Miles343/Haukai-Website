@@ -107,19 +107,20 @@ div.menuArea{ /*area for the different menus and giving it a colour*/
 .widthText-2{ /*menus and beverages*/
     width: 90%;
 }
-div.menuPics{ /*grid for menu*/
-    
-}
 div.area-2{ /*beverage area*/
     width: 100%;
 }
-/*-----menu page drinks grid settings-----*/
-div.beverage{
+div.grid2by2{
     display:grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-gap: 0.6rem;
 }
+.textRemovePad{
+    margin: 0px;
+    padding: 0px;
+}
+/*-----menu page drinks grid settings-----*/
 div.menuAreaDrink{ /*area for the drinks, dark blue to indicate drinks are not food*/
     padding-left: 5%;
     padding-right: 5%;
@@ -177,7 +178,7 @@ footer{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
     }
-    div.beverage{
+    div.grid2by2-1{ /*adjusts 2by2 into 1 by 4 in smallest viewport*/
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
     }
