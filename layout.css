@@ -160,6 +160,10 @@ footer{
     padding-left: 10%;
     padding-right: 5%;
 }
+/*--------------hours-------------*/
+div.dayPad{
+    padding-left: 18%;
+}
 /*happens after the above CSS to be able to change them*/
 @media (max-width: 768px) {
     a.fill-1{
