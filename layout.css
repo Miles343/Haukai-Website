@@ -110,12 +110,22 @@ div.menuArea{ /*area for the different menus and giving it a colour*/
 div.area-2{ /*beverage area*/
     width: 100%;
 }
-div.grid2by2{
+div.grid2by2{ /*for menu pictures*/
     display:grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-gap: 0.6rem;
 }
+div.grid2by1{ /*for beverage menu*/
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 0.6rem;
+}
+.small { /*line break between the grids half of 0.6 = 0.3*/
+    display: block;
+    margin: 0.3rem 0;
+ }
 .textRemovePad{
     margin: 0px;
     padding: 0px;
@@ -178,9 +188,9 @@ footer{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
     }
-    div.grid2by2-1{ /*adjusts 2by2 into 1 by 4 in smallest viewport*/
+    div.grid2by1-1{ /*adjusts 2by2 into 1 by 4 in smallest viewport*/
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
     }
     div.area-1{ /*makes the div coloured area the full page width*/
         width: 100%;
