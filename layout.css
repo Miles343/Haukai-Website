@@ -162,7 +162,7 @@ footer{
 }
 /*--------------hours-------------*/
 div.dayPad{
-    padding-left: 18%;
+    padding-left: 20%;
 }
 /*happens after the above CSS to be able to change them*/
 @media (max-width: 768px) {
@@ -181,6 +181,9 @@ div.dayPad{
     footer{ /*smaller padding for footer as the media view gets smaller*/
         padding-left: 3%;
         padding-right: 3%;
+    }
+    div.dayPad{
+        padding-left: 13%;
     }
 }
 @media (max-width: 480px) {
@@ -208,5 +211,8 @@ div.dayPad{
     footer{
         padding-left: 5%;
         padding-right: 1.5%;
+    }
+    div.dayPad{
+        padding-left: 10%;
     }
 }
