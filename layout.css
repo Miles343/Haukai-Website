@@ -165,7 +165,7 @@ div.dayPad{
     padding-left: 20%;
 }
 div.calendar{
-    width: auto;
+    width: 100%;
 }
 /*happens after the above CSS to be able to change them*/
 @media (max-width: 768px) {
