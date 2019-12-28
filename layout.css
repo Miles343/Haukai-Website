@@ -164,8 +164,9 @@ footer{
 div.dayPad{
     padding-left: 20%;
 }
-div.calendar{
-    width: 100%;
+.calendar{
+    width: 37rem;
+    height: 23rem;
 }
 /*happens after the above CSS to be able to change them*/
 @media (max-width: 768px) {
@@ -187,6 +188,9 @@ div.calendar{
     }
     div.dayPad{
         padding-left: 13%;
+    }
+    .calendar{
+        width: 30.9rem;
     }
 }
 @media (max-width: 480px) {
@@ -217,5 +221,8 @@ div.calendar{
     }
     div.dayPad{
         padding-left: 10%;
+    }
+    .calendar{
+        width: 28.5rem;
     }
 }
