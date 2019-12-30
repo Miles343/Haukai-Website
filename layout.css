@@ -201,7 +201,7 @@ div.contactMar{
     div.dayPad{
         padding-left: 13%;
     }
-    .calendar{
+    .frameArea{
         width: 30.9rem;
     }
 }
@@ -234,7 +234,7 @@ div.contactMar{
     div.dayPad{
         padding-left: 10%;
     }
-    .calendar{
+    .frameArea{
         width: 28.5rem;
     }
 }
