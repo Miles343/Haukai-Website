@@ -173,9 +173,8 @@ a.fill-2 { /*makes the clickable text darker on mouse hover and blue as links ar
     color: rgb(88, 166, 255);
     cursor: pointer; /*does this by default but it might not on all browsers so worth keeping*/
 }
-a.fill-2:hover { /*makes the clickable text darker on mouse hover--seems in browser the colours are overridden by defaults*/
+a.fill-2:hover { /*makes the clickable text darker on mouse hover*/
     color: rgb(0, 113, 243);
-    background-color: rgb(44, 22, 97);/*will use a background colour change as well to combat default override to show it's clickable*/
 }
 div.contactMar{
     margin-left: 3%;
