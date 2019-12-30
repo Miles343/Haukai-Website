@@ -168,6 +168,14 @@ div.dayPad{
     width: 37rem;
     height: 23rem;
 }
+/*--------contact us------------*/
+a.fill-2 { /*makes the clickable text darker on mouse hover and blue as links are commonly blue*/
+    color: rgb(88, 166, 255);
+    cursor: pointer; /*does this by default but it might not on all browsers so worth keeping*/
+}
+a.fill-2:hover { /*makes the clickable text darker on mouse hover*/
+    color: rgb(0, 113, 243);
+}
 /*happens after the above CSS to be able to change them*/
 @media (max-width: 768px) {
     a.fill-1{
