@@ -176,6 +176,10 @@ a.fill-2 { /*makes the clickable text darker on mouse hover and blue as links ar
 a.fill-2:hover { /*makes the clickable text darker on mouse hover*/
     color: rgb(0, 113, 243);
 }
+div.contactMar{
+    margin-left: 3%;
+    margin-right: 3%;
+}
 /*happens after the above CSS to be able to change them*/
 @media (max-width: 768px) {
     a.fill-1{
