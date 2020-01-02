@@ -168,6 +168,9 @@ div.listPad{
     width: 37rem;
     height: 23rem;
 }
+.frameHeight-2{ /*for google forms added on to the first frame area class, this is to override the first height value*/
+    height: 45rem;
+}
 /*--------contact us------------*/
 a.fill-2 { /*makes the clickable text darker on mouse hover and blue as links are commonly blue*/
     color: rgb(88, 166, 255);
